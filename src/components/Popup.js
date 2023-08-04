@@ -14,6 +14,7 @@ const Popup = (props) => {
                 />
                 <Button 
                     buttonText = {NO}
+                    className= "text-primary font-bold py-2 px-4 rounded bg-transparent hover:bg-transparent border border-primary"
                     onClickHandler={noHandler}
                 />
             </div>}

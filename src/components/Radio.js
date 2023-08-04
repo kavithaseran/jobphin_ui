@@ -2,7 +2,7 @@ const Radio = (props) => {
     const {options, value, title, field, isRequired} = props;
     return (
         <div className="flex flex-row flex-wrap mb-5">
-            <label htmlFor={props?.id} className="block text-sm font-normal h-7 w-full">
+            <label className="block text-sm font-normal h-7 w-full">
                 <>
                     {title}
                     {isRequired && <span className="text-red-600">*</span>}
