@@ -4,7 +4,7 @@ import { DeleteIcon, EditIcon } from "../../../components/icons";
 const DisplayCard = (props) => {
     const { details, editClickHandler, deleteClickHandler } = props;
     return (
-        <div className="flex flex-col justify-between bg-white inline-block border rounded p-4 w-[48%] m-2">
+        <div className="flex flex-col justify-between bg-white inline-block border rounded p-4 w-[47%] m-2">
             <div>
                 <div className="flex gap-3.5 w-full">
                     <div className="relative bg-black border rounded text-white w-10 text-2xl opacity-50 h-10 text-center leading-10 z-0">

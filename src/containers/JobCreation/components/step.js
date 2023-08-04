@@ -38,7 +38,7 @@ const StepCreation = (props) => {
             <div className="h-24 relative flex justify-between">
                 {goBack && <Button 
                     buttonText={GO_BACK} 
-                    className="absolute text-fontwhite font-bold py-2 px-4 rounded bg-primary hover:bg-primary bottom-0 left-0" 
+                    className="absolute text-primary font-bold py-2 px-4 rounded bg-transparent hover:bg-transparent bottom-0 left-0 border border-primary" 
                     onClickHandler={() => goBackHandler()}
                 />}
                 <Button 

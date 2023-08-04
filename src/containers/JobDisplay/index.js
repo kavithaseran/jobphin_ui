@@ -48,7 +48,7 @@ const JobDisplay = ({setEditDetails, allJobs}) => {
     }, [jobDeleteError])
 
     return (
-        <div className="flex flex-wrap p-10 gap-6">
+        <div className="flex flex-wrap p-10 justify-evenly gap-y-4">
             {isJobDeleting && <Loader />}
             {showAlert?.msg && <Alert type={showAlert?.type}>{showAlert?.msg}</Alert>}
             {showDeletePopup?.id && 
